@@ -41,6 +41,8 @@ public class WeatherStation extends Coordinate {
 	
 	
 	
+	
+	
 //getters
 	/**
 	 * @return the siteID
