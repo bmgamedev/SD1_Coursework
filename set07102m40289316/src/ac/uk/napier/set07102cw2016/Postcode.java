@@ -1,3 +1,7 @@
+//CLASS USED FOR SECTION 3 QUESTIONS ONLY!!!
+
+/* < -- DELETE THIS LINE TO USE THE CLASS -- >
+
 package ac.uk.napier.set07102cw2016;
 
 import org.openstreetmap.gui.jmapviewer.Coordinate;
@@ -17,13 +21,13 @@ public class Postcode extends Coordinate {
 	
 	
 //Constructor:
-	/**
+	*//**
 	 * @param lat
 	 * @param lon
 	 * @param postcode
 	 * @param lat2
 	 * @param lon2
-	 */
+	 *//*
 	
 	public Postcode(String postcode, double lat, double lon) {
 		//super(lat, lon);
@@ -35,42 +39,39 @@ public class Postcode extends Coordinate {
 	
 //Getters:
 
-	/**
+	*//**
 	 * @return the postcode
-	 */
+	 *//*
 	public String getPostcode() {
 		return postcode;
 	}
 
 
-	/**
+	*//**
 	 * @return the lat
-	 */
+	 *//*
 	public double getLat() {
 		return lat;
 	}
 
 
-	/**
+	*//**
 	 * @return the lon
-	 */
+	 *//*
 	public double getLon() {
 		return lon;
 	}
 
 
 //toString():
-	/* (non-Javadoc)
+	 (non-Javadoc)
 	 * @see java.lang.Object#toString()
-	 */
+	 
 	@Override
 	public String toString() {
 		return "Postcode [postcode=" + postcode + ", lat=" + lat + ", lon=" + lon + "]";
 	}
 	
-	
-	
-	
-	
-	
 }
+
+< -- DELETE THIS LINE TO USE THE CLASS -- > */

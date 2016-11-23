@@ -21,7 +21,7 @@ public class WeatherReading {
 	 * @param temperature
 	 */
 	public WeatherReading(int year, int month, int date, int hour, int windSpeed, double temperature) {
-		super();
+		//super();
 		this.year = year;
 		this.month = month;
 		this.date = date;

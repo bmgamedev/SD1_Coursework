@@ -1,14 +1,16 @@
 package ac.uk.napier.set07102cw2016;
 
-import org.openstreetmap.gui.jmapviewer.Coordinate;
+// ONLY USED FOR SECTION 3: 
+//import org.openstreetmap.gui.jmapviewer.Coordinate;
+//public class WeatherStation extends Coordinate {
+	
 
-public class WeatherStation extends Coordinate {
+public class WeatherStation {
+//(DELETE THE LINE ABOVE IF DOING SECTION 3)
 	
-	//Each weather station instance should maintain a list of weather readings
-	//obtained at that station
-	
-	//need to override constructor:
-	//Coordinate (double lat, double lon)
+//Each weather station instance should maintain a list of 
+//weather readings obtained at that station
+
 	
 //Variables	
 	private int siteID;
@@ -17,8 +19,6 @@ public class WeatherStation extends Coordinate {
 	private double lon;
 	
 //constructor: 
-	//need to override super constructor:
-		//Coordinate (double lat, double lon)
 	/**
 	 * @param lat
 	 * @param lon
@@ -26,14 +26,12 @@ public class WeatherStation extends Coordinate {
 	 * @param siteName
 	 * @param lat2
 	 * @param lon2
+	 * @return 
 	 */
-	public Postcode(int siteID, String siteName, double lat, double lon) {
-		//super(lat, lon);
+	public WeatherStation (int siteID, String siteName, double lat, double lon) {
 		this.siteID = siteID;
 		this.siteName = siteName;
-		@Override
 		this.lat = lat;
-		@Override
 		this.lon = lon;
 	}
 
